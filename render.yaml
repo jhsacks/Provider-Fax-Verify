@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: provider-fax-verify
+    runtime: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: DATA_DIR
+        value: /var/data
+      - key: ADMIN_PASSWORD
+        generateValue: true
+    disk:
+      name: provider-fax-data
+      mountPath: /var/data
+      sizeGB: 1

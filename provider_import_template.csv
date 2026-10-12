@@ -1,0 +1,4 @@
+provider_name,credentials,practice_name,city,state,npi,epic_status,correct_fax,epic_fax,phone,source_url,notes
+Peter Strauss,MD,Cumberland Pediatrics,Marietta,GA,,incorrect,770-702-5627,770-951-5400,770-951-5400,,Imported from legacy workbook
+Alice Wilson,MD,Cumberland Pediatrics,Marietta,GA,,incorrect,770-702-5627,,770-951-5400,,Imported from legacy workbook
+Karen Thrower,MD,East Cobb Pediatrics,Marietta,GA,,missing,770-509-9463,,770-977-0094,,Imported from legacy workbook
