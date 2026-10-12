@@ -2,15 +2,15 @@ services:
   - type: web
     name: provider-fax-verify
     runtime: python
-    plan: starter
+    plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
     envVars:
-      - key: DATA_DIR
-        value: /var/data
+      - key: GOOGLE_DRIVE_FILE_NAME
+        value: provider_fax_data.json
       - key: ADMIN_PASSWORD
-        generateValue: true
-    disk:
-      name: provider-fax-data
-      mountPath: /var/data
-      sizeGB: 1
+        sync: false
+      - key: GOOGLE_SERVICE_ACCOUNT_JSON
+        sync: false
+      - key: GOOGLE_DRIVE_FILE_ID
+        sync: false
