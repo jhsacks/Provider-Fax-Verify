@@ -1,0 +1,653 @@
+﻿provider_name,credentials,practice_name,city,state,npi,epic_status,correct_fax,epic_fax,phone,source_url,notes
+"Peter Strauss, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Beatrix Ohienmhen, MD",MD,Northside Cherokee Pediatrics,,,,EPIC_INCORRECT,7708527721,,7708527720,,not in database
+Flowers,,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Tory Banks, NP",NP,Cumberland Pediatrics,Marietta,GA,,EPIC_CORRECT,7707025627,,7709515400,,"listed incorrectly; 1405 Franklin Gateway, Marietta, GA 30067"
+"Amy Kent, Delaram Hajimirsadeghi",,Pandya Medical Center,,,,EPIC_INCORRECT,7707096910,,,,
+"Maria Axelrod, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Alice Wilson, MD",MD,Cumberland Pediatrics,Marietta,GA,,EPIC_CORRECT,7707025627,,7709515400,,"number not listed; 1405 Franklin Gateway, Marietta, GA 30067; ticket placed 1/18/19"
+"Preston H Leonard , MD",MD,Harbin Clinic,,,,EPIC_INCORRECT,4704906860,,6787219457,,fax number 770-276-7071
+"Lisa Winters-Smith, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Fitzroy Graham, MD",MD,Graham Pediatrics,Woodstock,GA,,EPIC_CORRECT,8666989350,,7704859670,,"listed incorrectly; 105 Mirramount Lake Drive, Woodstock, GA 30189"
+Kyoung-Soon Kim (DO NOT DO INBASKET DO FAX),DO,Practice not recorded,,,,EPIC_INCORRECT,,,,,
+"Yitzhak A. Melamed, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Tammy Williams, MD",MD,Harbin Clinic Pediatrics,Cartersville,GA,,EPIC_CORRECT,7702767075,,4704906860,,"listed incorrectly; 150 Gentilly Boulevard, Cartersville, GA 30120; ticket placed 1/23/19"
+Angelina Cain,,"Excelsis Health, 711 Canton Road, Suite 420, Marietta, GA 30060",,,,EPIC_INCORRECT,8339922064,,6783923548,,
+"Stephanie Poole, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Shannon Dobson, NP, Milan wade, NP, Frini Shah, MD",NP,Woodstock Pediatric Medicine,Woodstock,GA,,EPIC_CORRECT,7705170260,,7705170250,,"number not listed; 2000 Professional Way, Woodstock, GA 30188; ticket placed 12/18/18"
+"Yasmin Enmom, NP",NP,CVS smyrna minute clinic,,,,EPIC_INCORRECT,6783095762,,,,
+"Mark Long, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Jordana Heaven, MD, Adriana Rzeznik, MD, Thanh Tam Le, MD",MD,Woodstock Pediatric Medicine,Woodstock,GA,,EPIC_CORRECT,7705170260,,7705170250,,"failed fax; 2000 Professional Way, Woodstock, GA 30188; manual fax failed, fax number confirmed with office"
+Dr.Melvin Perry,,Total Care Pediatric,,,,EPIC_INCORRECT,8339920863,,4705020202,,
+"John Pitts, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Ana Pimentel, MD",MD,Grady Lindbergh Women and Children's Center,,,,EPIC_CORRECT,4046162205,,4046166999,,"not in database; 2695 Buford Hwy NE, Suite 200, Atlanta, GA, 30324; ticket placed 12/31/18"
+Dr Sara Pickett,,Practice not recorded,,,,EPIC_INCORRECT,7707739769,,4706015750,,
+"Frances ""Elizabeth"" Kemp, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Benjamin Roberts, MD",MD,Kaiser Permanente,Kennesaw,GA,,EPIC_CORRECT,7705145444,,7705145402,,"number not listed; 750 Town Park Lane, Kennesaw, GA 30144; ticket placed 1/4/19"
+Lyndi Bowling N.P,,Practice not recorded,,,,EPIC_INCORRECT,7708129206,,7708123265,,
+"Marisa Gadea, MD (East Cobb Peds)",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Marga B. Ngwang, MD",MD,Nissi Family Medicine,Austell,GA,,EPIC_CORRECT,7704859802,,6785407597,,"defaults to in basket, needs to send to fax; 1810 Mulkey Road, Suite 105, Austell, GA 30106"
+Dr. Dominic Baily M.D.,,Practice not recorded,,,,EPIC_INCORRECT,7065172469,,,,
+"Tracy Ferguson, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Andy Andrews, MD",MD,Pediatrics and Adolescent Medicine of Atlanta,Marietta,GA,,EPIC_CORRECT,7705650326,,7709734700,,"not in database; 2155 Post Oak Tritt Road, Suite 100, Marietta, GA 30062"
+DR. TEQUILLA PRYOR,,Practice not recorded,,,,EPIC_INCORRECT,7704604002,,6785939016,,
+"Mary E Cahill-Roberts, MD (nuestros ninos)",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Curtis Cheeks Jr, MD",MD,Primary Care Plus,Dallas,GA,,EPIC_CORRECT,6785743001,,6785743000,,"listed incorrectly then not received routed to correct number; 51 Seven Hills Blvd, Suite 102, Dallas, GA 30132; must print and fax manually"
+DR. JOHN THOMAS,,Practice not recorded,,,,EPIC_INCORRECT,4047053040,,4047053100,,
+"Caroline B Nguyen, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Nathan S Lynes, MD, Earl Young, MD, Margaret ""Katie"" Giligan, NP",MD,West Atlanta Pediatrics,Dallas,GA,,EPIC_CORRECT,7705057502,,7705053162,,"fax number listed is for the practice's other location; 2713 Charles Hardy Pkwy, Suite 122, Dallas, GA 30157; manually routed to correct fax number for now"
+Aarti Patel NP,NP,DC PULMONARY MEDICINE,,,,EPIC_INCORRECT,7709499022,,7709495535,,
+"Jason R Hefner, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Gerald H. Clark, MD",MD,North Fulton Pediatrics,Roswell,GA,,EPIC_CORRECT,7704751621,,7704421050,,"listed incorrectly; 1285 Hembree Road, Suite 100, Roswell, GA 30076; manually routed to correct fax number for now"
+"Cathy Pak, MD",MD,"Peds Care, PC",,,,EPIC_INCORRECT,7062786628,,7062723832,,OFFICE 7065172273  FAX NUMBER 7062723832
+"Richard C Bien, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Iyabode F Akinsanya-Beysolow, MD",MD,Atlanta Pediatric Partners,,,,EPIC_CORRECT,4046991380,,4046991339,,address incorrect
+Dr. Reena Vanmali,,Practice not recorded,,,,EPIC_INCORRECT,7704355761,,,,
+"Mary B Hammock, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Tiffini Billingsly, MD",MD,Premier Pediatric Associates,Smyrna,GA,,EPIC_CORRECT,7708039191,,4042207660,,"no fax number listed; 3200 Highlands Parkway, Suite 118, Smyrna, GA 30082"
+Dr. Rashida Avery,,Practice not recorded,,,,EPIC_INCORRECT,4044897882,,4046162265,,
+"Sarah Yount, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Jessika Jackson, MD",MD,Premier Pediatric Associates,Smyrna,GA,,EPIC_CORRECT,7708039191,,4042207660,,"not in database; 3200 Highlands Parkway, Suite 118, Smyrna, GA 30082; manually routed to correct fax number for now"
+Dr. Afroz Rahman,,Practice not recorded,,,,EPIC_INCORRECT,7709351040,,,,
+"Richard L Baldwin, MD (douglasville peds)",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Larue D. Penny Jr, MD",MD,Preston Ridge Pediatrics,Alpharetta,GA,,EPIC_CORRECT,7707726099,,7707516111,,"no fax number listed; 3400A Old Milton Parkway, Suite 330, Alpharetta, GA 30005"
+Dr.Anjali Chaudhari,,Practice not recorded,,,,EPIC_INCORRECT,4048736487,,,,
+"Karen Thrower, MD Amanda McGahee (E. Cobb Peds)",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Nichole Barthold, NP",NP,Preston Ridge Pediatrics,Alpharetta,GA,,EPIC_CORRECT,7707726099,,7707516111,,"not in database; 3400A Old Milton Parkway, Suite 330, Alpharetta, GA 30005"
+"Brenda Surles, MD",MD,Pediatrics Associates,,,,EPIC_INCORRECT,7702873871,,,,
+kemp,,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Jordan Weitzner, MD",MD,Atlanta Gastroenterology,Marietta,GA,,EPIC_CORRECT,7704273261,,7704273075,,"still under old practice; 488 Kennesaw Avenue NW, Suite 200, Marietta, GA 30060"
+Dr. Mohammad Tomeh,,Practice not recorded,,,,EPIC_INCORRECT,,,,,
+"Juila Gaines, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Adele Goodloe, MD",MD,Northside Pediatrics,Woodstock,GA,,EPIC_CORRECT,6783245018,,7709280016,,"no fax number listed; 250 Parkbrooke Place, Suite 200, Woodstock, GA 30189"
+"Eric v. McBryde, MD",MD,Grffin Pediatrics,,,,EPIC_INCORRECT,7702288180,,,,
+"Kola Ologunja, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Jeffrey Abrams, MD",MD,Absolute Care Pediatric Children's Clinic,Peachtree Corners,GA,,EPIC_CORRECT,4707297016,,6788663596,,"listed incorrectly; 5635 Peachtree Pkwy, Suite 140, Peachtree Corners, GA 30092"
+Dr. Suzanne Manley,,Practice not recorded,,,,EPIC_INCORRECT,7708128650,,,,
+"Julia Worly, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Mamatha Gavini, MD",MD,Kaiser Permanente,,,,EPIC_CORRECT,7705145444,,7705145402,,listed incorrectly
+Dr. David King,,Practice not recorded,,,,EPIC_INCORRECT,4046336637,,,,
+"Thomas Ryan, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Josephine T Ediale, MD",MD,Westcare Pediatrics,Villa Rica,GA,,EPIC_CORRECT,7704598613,,7704599378,,"listed incorrectly; 626 Dallas Highway, Villa Rica, GA 30180"
+Dr. Karen Moore,,Practice not recorded,,,,EPIC_INCORRECT,7707021312,,,,
+"Mohammed Waris, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Amy J Hardin, MD",MD,Northside Pediatrics,Woodstock,GA,,EPIC_CORRECT,7709287006,,7709280016,,"listed incorrectly; 250 Parkbrooke Place, Suite 200, Woodstock, GA 30189"
+Dr. Shaleak Brown,,Practice not recorded,,,,EPIC_INCORRECT,7702203705,,,,
+"Dekisha P Drayton, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Moneesha Sahgal, MD",MD,Creekview Pediatrics,Johns Creek,GA,,EPIC_CORRECT,7706227743,,7706227742,,"name spelled wrong, no fax; 6335 Hospital Parkway, Suite 202, Johns Creek, GA 30097"
+Dr. Sehrish Viqar,,Creekside Pediatrics,,,,EPIC_INCORRECT,7709209963,,7709202255,,
+"Amanda C McGahee, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Steven Garmon, MD, Judy Anderson, MD",MD,Dr. Miniyar's Pediatrics,,,,EPIC_CORRECT,6789010718,,6789010717,,multiple locations
+Dr. Eric Hoffler,,ABC Pediatrics,,,,EPIC_INCORRECT,7704618852,,,,
+"Nikki Roberts, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Donna Fearing, MD, Debbie King, NP, Anna Schulenborg, MD",MD,"Pediatrics and Adolescent Medicine, PAMPA",Woodstock,GA,,EPIC_CORRECT,7705176526,,7705176804,,"listed incorrectly; 100 Stone Forest Dr., Suite 300, Woodstock, GA 30189"
+Dr. Jamie T Griffin,,Kaiser Department of Peds,,,,EPIC_INCORRECT,4043650966,,7702203796,,
+"Monica Holzwarth, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Jennifer Biggs, MD",MD,"Pediatric Physicians, PC",Roswell,GA,,EPIC_CORRECT,7705188718,,7705189277,,"phone number listed incorrectly; 11050 Crabapple Road, Roswell, GA 30075"
+Dr. Suzanne Schuessler,,LaGrange Pediatrics,,,,EPIC_INCORRECT,7068836363,,7068845588,,
+"Beatrice Wilder, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Carla A McLean-Joseph, MD",MD,Cobb County Public Health,,,,EPIC_CORRECT,7705142363,,7705142361,,listed incorrectly
+"Valerie Burns, MD",MD,"AGC Pediatrics, LLC",,,,EPIC_INCORRECT,7066056404,,7066255900,,
+"Shelly-Ann Salandy, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Nadia Cameron, MD , Jasmine Mays, PA",MD,Balanced Life Healthcare Solutions,Lawrenceville,GA,,EPIC_CORRECT,7702719787,,7706964541,,"listed incorrectly; 1846 Old Norcross Road, Suite 100, Lawrenceville, GA 30044"
+"Kerith Rudnicki, MD",MD,"Children's Medical Group, PC",,,,EPIC_INCORRECT,4046336637,,,,
+"Ghazala Quraishi, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Nicola Chin, MD",MD,Morehouse Healthcare Pediatrics,Atlanta,GA,,EPIC_CORRECT,4047561490,,4048573580,,"not in database; 1800 Howell Mill Road, Suites 275 and 550, Atlanta, GA 30318"
+"Charva Poole,MD",MD,Tanner Healthcare for Children,,,,EPIC_INCORRECT,7704563287,,7708123265,,
+"Naima Cheema, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Jennifer Dunn, MD",MD,Westcare Pediatrics,,,,EPIC_CORRECT,7704598613,,7704599378,,"not in database; 626 Dallas Hwy, Villa Rica, GA 30180"
+"Nabila Haque,MD",MD,Douglasville Outpatient Services (Mental Health),,,,EPIC_INCORRECT,6783912918,,,,
+"Renee Brack, NP",NP,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Steven Goudy, MD",MD,CHOA ent,,,,EPIC_CORRECT,4047859037,,4047855437,,not in database
+"Tammy Stewart,PA",PA,Tanner Healthcare for Children,,,,EPIC_INCORRECT,7708388650,,,,
+"Christopher Knitig, DO",DO,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Jacqueline Sulton, MD",MD,Sulton Pediatrics Group,Tucker,GA,,EPIC_CORRECT,4703595996,,7706706100,,"fax number not listed; 2258 Northlake Pkwy, Suite 100, Tucker, GA 30084"
+"Ruby Thomas, MD, Jacqueline Christie, MD, Shannon Christie-Ross, NP",MD,Anwan Wellness Center,,,,EPIC_INCORRECT,4047663133,,4047612766,,
+"Anne Bariyiga, NP",NP,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Kenneth Akey, MD",MD,Kenneth Akey Natural Pediatrics,,,,EPIC_CORRECT,7706833019,,7706833020,,"not in database; 1605 Hwy 34 E. Suite C, Newnan, 30265"
+"Stephanie L. Hassel McNeil, MD",MD,Our Village Pediatrics,,,,EPIC_INCORRECT,4703894970,,4704011089,,
+"Erika Van Putten, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Tammy Stewart, PA; Marilyn Coleman, MD",PA,Tanner Healthcare for Children,Villa Rica,GA,,EPIC_CORRECT,7708128650,,7708123265,,"not in database; 690 Dallas Highway, Suite 206, Villa Rica, GA 30180"
+"Kirsten Mekelburg, MD",MD,Children's Wellness Center,,,,EPIC_INCORRECT,4043031399,,4043031314,,
+"William Kriegel, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Estonna P. Wells-Jarrett, MD, Steven Shore, MD, Elizabeth Marston Theriot, MD",MD,Sandy Springs Pediatric and Adolescent Medicine,Atlanta,GA,,EPIC_CORRECT,4042561759,,4042524611,,"no fax number listed; 6100 Lake Forrest Drive, Suite 100, Atlanta, GA 30328"
+"Joseph Joyave, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6786056405,,,,
+"Terry Langford, MD, Arlie Stevens, NP",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Jagan K Chilakamarri, MD",MD,Atlanta Psychiatric Institute,,,,EPIC_CORRECT,7709922798,,7709922778,,no fax number listed
+"Chaouki Khoury, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Karen Chaplin, MD",MD,A Kid's World Pediatrics,Fayetteville,GA,,EPIC_CORRECT,7704605011,,7704602131,,"no fax number listed; 288 Highway 314, Suite A, Fayetteville, GA 30214"
+"Todd R. Kelley, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7622352898,,,,
+"Angela Hall, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Chad Stough, PA, Stephen Carter II, MD",PA,West Atlanta Pediatrics,,,,EPIC_CORRECT,7709489126,,7707399292,,no fax number listed; multiple locations
+"Kristin Mallory, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7062984989,,,,
+"Lindsey Ransom, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+Sheisa Claudio-sandoval,,Princeton lakes pediatrics,Kennesaw,GA,,EPIC_CORRECT,6784836390,,6784836880,,"2953 North Cobb Pkwy, Suite 16/17, Kennesaw, GA 30152"
+"Jeffrey Hopkins, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Jennifer Shu, MD",MD,Children's Medical Group,,,,EPIC_CORRECT,4047289743,,4047489691,,multiple locations
+"Julie Cosgrove, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704250799,,,,
+"Tracy Barr, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+Tajas Mehta,,Atlanta Gastroenterology,,,,EPIC_CORRECT,4048436321,,4048436320,,
+"Luis Lopez, NP, Dr. Michael Gilhuly (Grupo Medico)",NP,Practice not recorded,,,,EPIC_INCORRECT,7704857398,,,,
+"Timothy Lorenz, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Lynette Wilson-Phillips, MD",MD,Decatur Pediatric Group,,,,EPIC_CORRECT,8667775452,,4042967133,,"wrong fax number; multiple locations- smyrna, lithonia, covington, Clarkston"
+"Alicia Landry,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6788382230,,,,
+"Helena Bentley, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Elizabeth McKinnon, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,changed practices
+"Carlos Escobar, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,6789151893,,6789151891,,
+"Vicki Knight-Mathis, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Abigail Kamishlian, MD",MD,Daffodil Pediatrics,,,,EPIC_CORRECT,4043620808,,8885894890,,wrong fax number; multiple locations
+Dr. Ijamakinwa,,Permanently Closed,,,,EPIC_INCORRECT,,,,,
+"Richard R. Young, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Tiji Philip, MD",MD,Northside Pediatrics,,,,EPIC_CORRECT,6783245018,,7709280016,,not in database; woodstock and sandy springs
+"Charlene Johnson, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4043496759,,,,
+"Laura Badwan, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Caitlin Tierney, DO ; Jonathan Goodin, MD",DO,Tanner Healthcare for Children,,,,EPIC_CORRECT,7708388650,,7708340606,,
+"Abolhassan Yamin, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Carla  Neal-Haley, MD",MD,Genesis Healthcare Associates,,,,EPIC_CORRECT,7704341304,,7704341904,,
+"Thomas McGinn,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704979998,,,,
+"Cheryl Kendall, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Robert A Forbes Jr., MD, Craig Lebish, MD, Deanna J Renz, NP",MD,Cobb Pediatrics,,,,EPIC_CORRECT,7704250799,,7704255331,,
+John S Kennedy,,Practice not recorded,,,,EPIC_INCORRECT,4045084112,,,,
+"Greg Cabrera, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Tashawna Stokes, MD, Laura Bleekrode, MD, Faith Jean-Louis, NP",MD,Alpharetta Pediatrics,,,,EPIC_CORRECT,7706647836,,7706644430,,not in database; multiple locations- Roswell and Cumming
+"Ugochukwu Egolum,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7705348025,,,,
+"Gertrude Arrington, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Godfrey Mark, MD",MD,Urban Family Practice,,,,EPIC_CORRECT,7709528579,,7709521032,,
+"Claire Wilkiemeyer, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4045258272,,,,
+"Meenakshi Hari, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Crystal White, MD; Sherie Byrd, MD, Tiffany Watts,MD",MD,West Vinings Pediatric Group,Smyrna,GA,,EPIC_CORRECT,4044463965,,4044463960,,"wrong fax number; 3644 Highlands Parkway, Smyrna, GA 30082"
+"Kendall Jackson, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702203796,,,,
+"Anna Kuo, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Douglas Josephson, MD",MD,Roswell Pediatric Center,,,,EPIC_CORRECT,7708885562,,7708882882,,no fax number listed; multiple
+"Brian Griner, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,2292426061,,2292426151,,
+"John Sparti, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Kelly Rouster-Stevens, MD",MD,CHOA Rheumatology,,,,EPIC_CORRECT,4047859111,,,,wrong fax number
+"Jasie Swicord, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7705371237,,,,
+"Valencia Burruss, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Kimberly Dao-King, MD",MD,West Cobb Pediatrics,,,,EPIC_CORRECT,7704394714,,,,no fax
+"Wael Hammad, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4045258272,,,,
+"Mary Dailey-Smith, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Maia Walton,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4045172995,,,,
+"Forrest ""Clark"" Cantrell, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Richard Gluckman, MD, Joseph Kulangara, MD",MD,Westside Pediatrics,,,,EPIC_CORRECT,7709200062,,7709200085,,wrong fax number
+"Daniel Barfield, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7703864220,,,,
+"Robert Wiskind, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Kevin Colton, MD",MD,Children's Medical Group,,,,EPIC_CORRECT,4046336637,,4046334595,,not in database; multiple locations
+"Bethany Jackson,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7062341491,,,,
+"Gabraella Drake-Forte, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+J Edwyn Carter,,Piedmont Pediatrics Physician Group,,,,EPIC_CORRECT,7703042622,,7703042220,,"189 Jefferson Pkwy Newnan , Ga 30263"
+"Kimberly M. Humphrey-Brown, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4043620808,,,,
+"Edgar Melendez, MD (Douglas Pediatric Assoc.)",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Paola Suarez, MD",MD,Canton Georgia Highlands Pediatrics,Canton,GA,,EPIC_CORRECT,7707207384,,6788071050,,"no fax number listed; 220 Oakside Lane, Canton, GA 30114-6413"
+"Lauren Hornsby, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7068454367,,,,
+"Judith Tolkan, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Amber Boyd, NP",NP,316 Family Medicine,Carrollton,GA,,EPIC_CORRECT,6783906585,,6783906575,,"not in database; 527 Tanner St, Carrollton, GA 30117-3318"
+"Katy Taasoobshiraz, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709950823,,7709957018,,
+"Dara Hosch, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Jeffrey Charpentier, MD",MD,Douglas Neurology Associates,,,,EPIC_CORRECT,6788382193,,6788382180,,not in database; multiple locations
+"Gregory J. Matechak, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8667772178,,,,
+"William Godfrey, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Shalini M Shah, MD",MD,Village Pediatrics @Vickery,,,,EPIC_CORRECT,6783419212,,6789903362,,"7165 Colfax Ave. Cumming, GA 30040"
+"Thomas Bat, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706638905,,,,
+"Caroline Miller, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Faith Jean-Louis, NP",NP,Southside Medical Center,,,,EPIC_CORRECT,,,,,
+"Brittany Cheeks, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7705022029,,,,
+"Sekhar Sankaran, MD (McDonough Peds)",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Terrence Gfroerer, MD",MD,Dunwoody Pediatrics,Dunwoody,GA,,EPIC_CORRECT,7703943055,,7703942358,,"not in database; 1428 Dunwoody Village Pkwy, Dunwoody, GA 30338"
+"John M. Potts, Jr., MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6785839319,,,,
+"Angela Evans, DO (route through epic)",DO,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Janet Jung, MD",MD,Sweetwater Pediatrics,,,,EPIC_CORRECT,6789578312,,6789578283,,not in database
+"Kelly R. Davillier, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704457056,,,,
+"Robert Platner (Old 4th Ward pediatrics), click fax",,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+Angela Hutchins-Howard,,Zaman Pediatrics,Snellville,GA,,EPIC_CORRECT,7707360014,,7709792600,,"fax not listed; 2800 Main St West, Snellville, GA 30078"
+"Helen Uzokwe,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4047677777,,4047677770,,
+"Claire Bush, MD (We Care Pediatrics)",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Karen Thrower, MD, Dr. Licata",MD,East Cobb Pediatrics,Marietta,GA,,EPIC_CORRECT,7705099463,,7709770094,,"not in database; 1121 Johnson Ferry Rd., Suite 220, Marietta, GA 30068; INC01654962, contact updated"
+"Nicole Ellerine, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Renee Clarke-Hall, NP",NP,Decatur Pediatric Group,,,,EPIC_CORRECT,4042967211,,4042967133,,"not in database; multiple locations; INC01654962- closed, said website down and could not verify license"
+"Christopher S. Richards,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709416441,,,,
+"Conrod Hewling, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Lynette Jattan-Cunningham, MD",MD,Conyers Pediatrics,Covington,GA,,EPIC_CORRECT,6787501406,,7707881554,,"ez; 7138 Hwy 212, Suite C, Covington, GA 30016-8047; INC01681134 - fixed"
+Newborn Clinic and Breastfeed Atlanta,,Practice not recorded,,,,EPIC_INCORRECT,4043933739,,,,
+"William Payne,MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Dina Royal, MD",MD,PAMPA,,,,EPIC_CORRECT,7705650326,,7709734700,,fax number not listed; multiple locations; INC01662737 - fixed
+"Luis Hempel, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706225717,,,,
+"Mary Blackington,MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Laurette Ho, Alexia Gregory, Joanna Kerr (NP not listed in Epic) Sandy Plains Pediatrics",NP,Sandy Plains Pediatrics (Dr.,,,,EPIC_CORRECT,6785607185,,6785607160,,multiple locations; INC01657969 - Resolution notes: Jennifer D. Smith states this physician is not credentialed to work. They need to contact the Medical Staffing Office ASAP
+"Tonya Lyles, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,3347566523,,,,
+"Jane Jurma, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Yvonne  Smith, MD",MD,"Angela Butler Rice,MD",Atlanta,GA,,EPIC_CORRECT,6786913460,,,,"3896 Princeton Lakes Way, Atlanta, GA 30331"
+"Robert Licatta, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7705521674,,,,
+OB/GYN,,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+DR. VANNA JACKSON,,"Daniel Heine,MD",Cartersville,GA,,EPIC_CORRECT,7705099463,,,,"200 Gentilly Blvd, Cartersville, GA 30120"
+"Karen Anne Moore, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7707021312,,,,
+"Keisa Anderson, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+Dr. Sally Marcus,,"Vidya Krishnamurthy,MD",,,,EPIC_CORRECT,7703460165,,,,
+"Roy G Benaroch, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7705188718,,,,
+"Brian Winn, MD",MD,Practice not recorded,,,,EPIC_CORRECT,4043513515,,4043511131,,
+"Pamela D Hearn, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7707487819,,,,
+"Michelle Allen, MD",MD,Amanda Newton,,,,EPIC_CORRECT,,,,,
+MFM,,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+Arthur Reisman,,"Fredly E. Bataille,MD",,,,EPIC_CORRECT,4044464727,,,,
+"Katherine Fields, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702767075,,,,
+"Philip Potter, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Annalise Reynolds,MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,
+"Joni Yamamoto, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7066258586,,,,
+"Lawrence Nathan, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Maribel Angka-Servera,MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,
+"Henaro Sabino, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7703825762,,,,
+"Thomas Trevett, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Sarah Aldridge, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,4042561759,,
+"Holley Beam, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7708388650,,,,
+"Jamie H. Rollins, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,
+"Panyavee V Khan, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7708884502,,,,
+"Vivian Lennon, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,7702639102,,
+"Allison L. Barker, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704355761,,,,
+"Keri Altman,NP",NP,Practice not recorded,,,,EPIC_CORRECT,6783907071,,,,
+"Julie Patel, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704257601,,,,
+"Estonna P. Wells-Jarrett,MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,4042561759,,
+"Tameka Walker, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704257601,,,,
+"Ben Grinzaid,MD, Philip Spandorfer, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,4709617300,,
+"Susan G. Traxler, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7708884502,,,,
+"If issues, e-mail Jennifer Smith and Bobby DeCoux",,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Laura Harris,MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,4043516030,,
+"Rajeshkumar M. Miniyar, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7062723832,,,,
+jenniferd.smith@wellstar.org,,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Jason Reingold, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,
+"Nicole Smail, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7705650326,,,,
+bobbydecoux@wellstar.org,,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Giouzel O. Glodener,MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,7703438911,,
+"Nisha Bhika,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4042523591,,,,
+"Mary B. Hammock, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,6783843481,,
+"Charlotte Khan, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6785439420,,,,
+"Alexa N. Gusmerotti,MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,7704298005,,
+"Gwen Delaney, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6789902505,,,,
+"Crystal L. White,MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,4044463695,,
+"Charles C. Richards, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709416441,,,,
+"Neelima Turlapaty, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,7705176526,,
+"Annalise Cawley, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7066255906,,,,
+"Louis Cohen, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,7705654319,,
+"Ashley Ford, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7708899952,,,,
+"Alexa Gusmerotti,MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,7704298005,,
+"Joshua Kennedy, DO",DO,Practice not recorded,,,,EPIC_INCORRECT,7064396166,,,,
+"Lyudmila Vayman, MD, Rosalie Vayman (switch to fax)",MD,Practice not recorded,,,,EPIC_CORRECT,,,7706743777,,
+"Christine Furr, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706225717,,,,
+"Sarah Robertson, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,,,
+"Crystal Barnwell, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6783030630,,,,
+"Zachary Cline-Egri,DO",DO,Practice not recorded,,,,EPIC_CORRECT,,,7705188718,,
+"Patrice D. Thompson, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4043449195,,,,
+"MaryGrace Ani, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,7705521674,,
+"Karen Anne Moore, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7707025627,,,,
+"Margaret Boudreaux, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,6782082051,,
+"Nicole Lake, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,6783907071,,,,
+"Brittany K. Hill Buckler, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,7704298005,,
+"Afroz Rahman, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709351040,,,,
+"Stanton Stebbins, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,7705188718,,
+"Ebon A. Bourne, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709741970,,,,
+Elizabeth D Norwood,,Practice not recorded,,,,EPIC_CORRECT,,,4048066681,,
+"Robyn Miller, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709720850,,,,
+"Toni Egolum, MD",MD,Practice not recorded,,,,EPIC_CORRECT,,,7702873871,,
+"Chioma Emerole, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7705947244,,,,
+"Vaishali Kate, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8665787440,,,,
+"Elizabeth Watson, NP",NP,866-389-2727,,,,EPIC_INCORRECT,4016529093,,,,
+"Zack Engler, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4046018371,,,,
+"Susamma Mathew,MD",MD,678-377-1113,,,,EPIC_INCORRECT,6783779390,,,,
+"Adebayo Akinsola, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8779147472,,,,
+"Melinda Shelton, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4045089640,,,,
+"Kelly West, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4042563583,,,,
+Nneka Unachukwu,,Practice not recorded,,,,EPIC_INCORRECT,7708211935,,,,
+"Melinda A. Williams-Willingham,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8339070580,,,,
+"Eric Hoffler, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704618852,,,,
+"John Travis Nelson,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7062165285,,,,
+"Susan Carey,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702873871,,,,
+"Kimberly Hodge-Spears, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7707854488,,,,
+"David Ecklund, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702203705,,,,
+"Obioha Okoro, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4787468861,,,,
+"Shannon Christie-Ross,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,6782052040,,,,
+"Melvin G. Perry, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4705829386,,,,
+"Helen Louise Moore,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4789226530,,,,
+"Marga Ngwang, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704859802,,,,
+"Brian E. Barczak, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702122203,,,,
+"Israel Orija, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4709867056,,,,
+"Jennifer Tirino, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6782570618,,,,
+"Lori Desoutter, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704768482,,,,
+"Kari Vance, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7704768482,,,,
+"Hiral Lavania,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8446623114,,,,
+"Robertsteen C. Howard,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7062388031,,,,
+"Charolette Grulke,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,6783847163,,,,
+"Manisha Sharma,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8884121723,,,,
+"Mohammad Sabur Nasiri,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709313111,,,,
+"Lisa Reed,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7066069239,,,,
+"Maia A. Walton,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4705172995,,,,
+Emma C. Atherton Staples,,Practice not recorded,,,,EPIC_INCORRECT,6783540828,,,,
+"Richard R. Young, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7703869451,,,,
+"Julian Gorvy, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704768482,,,,
+"Sarah Valdes, NP Tanner healthcare for children",NP,Practice not recorded,,,,EPIC_INCORRECT,7708128650,,,,
+"Raju Kulangara,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709200062,,,,
+Brandon Estroff Northside Pediatrics,,Practice not recorded,,,,EPIC_INCORRECT,7706857114,,,,
+"Lady C Collins,NP",NP,770-263-9101,,,,EPIC_INCORRECT,7702639102,,,,
+Stephanie Muller-Dale,,770-664-8228,,,,EPIC_INCORRECT,,,,,
+"Dorothy Lake, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7705371237,,,,
+Lauren S. Oberg,,770-263-9101,,,,EPIC_INCORRECT,7702639102,,,,
+Kelly Lathem,,Practice not recorded,,,,EPIC_INCORRECT,7702873871,,,,
+"Daniel Mejia,FNP",FNP,706-439-6165,,,,EPIC_INCORRECT,7064396166,,,,
+"Jocelyn Collins,MD",MD,706-439-6165,,,,EPIC_INCORRECT,7064396166,,,,
+"Michelle Cooke,MD",MD,470-839-3129,,,,EPIC_INCORRECT,4709460145,,,,
+"Rajeshkumar Miniyar,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7062321039,,,,
+"Ashley Bufe,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4047289743,,,,
+"Brittany Rogers,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7065465687,,,,
+"Remya Nair,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4706000109,,,,
+"Sheisa Claudio Sandoval,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6784836390,,,,
+"Caitlin Tierney,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7708128650,,,,
+"Lankala Reddy,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4043661250,,,,
+"Amber Boyd, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8335932787,,,,
+"Natalie McCall-Gaston,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8336330852,,,,
+"Brittany Cole,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4044814520,,,,
+"Peter Strauss,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704298005,,,,
+"Sheena M. Sweeney,DO",DO,Practice not recorded,,,,EPIC_INCORRECT,7062213594,,,,
+"Keri Altman,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7705371237,,,,
+"William Moneit,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704959959,,,,
+"Lauren Gooch,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7702873871,,,,
+"Kate McGlamry,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706857114,,,,
+"Jennifer R. Kadleclooby,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7708141173,,,,
+"Fiona Blair,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7707715223,,,,
+Bakari Z Morgan,,Practice not recorded,,,,EPIC_INCORRECT,7705650326,,,,
+"Jennifer M. Keller,PA",PA,Practice not recorded,,,,EPIC_INCORRECT,7066255906,,,,
+"Tiffany Turner, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7062785085,,,,
+"Sarah Correia,PA",PA,Practice not recorded,,,,EPIC_INCORRECT,7063561457,,,,
+"Erin Bardonner,APRN",APRN,Practice not recorded,,,,EPIC_INCORRECT,6788808787,,,,
+"Paola J. Suarez,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6788808787,,,,
+"Yvonne Ibe,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709416441,,,,
+"Gloria Berenson,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7703943055,,,,
+"Matthew Rumsey,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7066255906,,,,
+"Kevin Colton,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4046336711,,,,
+"Shayna A. Smith,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8339742337,,,,
+Dr. Nando Kalli MD,MD,Practice not recorded,,,,EPIC_INCORRECT,,,,,
+"Dana L. Cole,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7709282601,,,,
+"Jessalyn E. Meeks,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4046336637,,,,
+"Pooja Chandra,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709416441,,,,
+"Neelima Turlapaty,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7707517198,,,,
+"Iris Krishna,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4046861652,,,,
+"Tiffini N Billingsly,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7708039191,,,,
+"Zaheeruddin Syed,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709992691,,,,
+"Eve A. Wexler,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4047458202,,,,
+Stephanie Kong,,706-641-2462,,,,EPIC_INCORRECT,3604625817,,,,
+"Lindsey Burnett,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,3604625817,,,,
+"Chukwuma Onyeije,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4048723119,,,,
+Megan Sims NP,NP,Practice not recorded,,,,EPIC_INCORRECT,4047855994,,,,
+"Sanjeev S. Tendolkar,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704662082,,,,
+William E. Parrish,,Practice not recorded,,,,EPIC_INCORRECT,7708242600,,,,
+"Samantha Ball, DO",DO,Practice not recorded,,,,EPIC_INCORRECT,7705133545,,,,
+"Holley Beam,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7708388650,,,,
+"Jeffery D. Cooper,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6784734739,,,,
+"Stephanie C. Morgan,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7706069239,,,,
+"Lisa Winters-Smith,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4044463695,,,,
+Angela P. Jackson M.D.,,770-996-9191,,,,EPIC_INCORRECT,7709965298,,,,
+"Lisa G. Roberts,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709957018,,,,
+"Faith A. Ludwick,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7707517198,,,,
+"Naima Cheema,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8888327996,,,,
+"Lester Freeman,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4046914304,,,,
+"Dorene Etrarock,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704316941,,,,
+"Joshua Kennedy,DO",DO,Practice not recorded,,,,EPIC_INCORRECT,7064396166,,,,
+"Benjamin Lawless,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7705290279,,,,
+"Stephanie Junior,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,8335932787,,,,
+"Heather Butler , MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702873871,,,,
+"John Licata,MD",MD,770-993-2922,,,,EPIC_INCORRECT,7705521674,,,,
+"Kevin J. Rodbell,MD",MD,404-745-4578,,,,EPIC_INCORRECT,4047454579,,,,
+"Jose A. Rios,MD",MD,770-233-4668,,,,EPIC_INCORRECT,8777957324,,,,
+"Leah Macklin,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4702537923,,,,
+"Whitney Cook,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7707715279,,,,
+"Timothy F. Ryan,MD",MD,770-382-1984,,,,EPIC_INCORRECT,7703821901,,,,
+"Kelly Wilburn,MD, FAAP",MD,Practice not recorded,,,,EPIC_INCORRECT,7703943055,,,,
+"Daniel A. Sherman,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6784444177,,,,
+"Jill B. Dickerson,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6784235563,,,,
+"Shannon T. Hicks,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709992758,,,,
+"J. Maclayne Heller, PA",PA,Practice not recorded,,,,EPIC_INCORRECT,7066255906,,,,
+"Victoria Barnes,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4048886000,,,,
+"Crystal L. White,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4044463695,,,,
+"Jodi M. Greenwald,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704751621,,,,
+y,,Practice not recorded,,,,EPIC_CORRECT,,,,,Imported from green column A: fax in Epic correct
+"Carlos Escobarduque,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,6789151893,,,,
+"Laura Badwan,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7705099463,,,,
+"Ofelia Mandock,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704913164,,,,
+"Dorie A. Saxon,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706033674,,,,
+"Molly V. Cooper,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7707739769,,,,
+Hannah B. Lecesne NP,NP,Practice not recorded,,,,EPIC_INCORRECT,7707326007,,,,
+"Shelly M. Brown,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7707954513,,,,
+"Teresia Pham,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4043620808,,,,
+"Scott Bader,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7325640212,,,,
+"Allison Gay, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6785271559,,,,
+"David Hammad,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4045258272,,,,
+"Susan C. Brewer,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7062321039,,,,
+"Noureen N. Husain,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709416441,,,,
+Dr. Planter,,Practice not recorded,,,,EPIC_INCORRECT,4046862015,,,,
+"Jennifer M. Heller,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7066255906,,,,
+"Linda S. Kelly,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7703943055,,,,
+"Howard Aldridge,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702972277,,,,
+"Fred A. Tega,MD",MD,770-251-5253,,,,EPIC_INCORRECT,7702515254,,,,
+"Julie A. Segal,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4043031399,,,,
+"Regina Justice, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706833998,,,,
+"William Boyd,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702873871,,,,
+"Mujtaba S. Sheikh,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702972277,,,,
+"Vaishali B. Kute,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8665787440,,,,
+"Nandor A. Kalli,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7707819937,,,,
+"Luticia M. Hardy,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6787219457,,,,
+"Mary S. Thompson,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706857114,,,,
+Paola Suarez MD,MD,770-887-1668 FAX,,,,EPIC_INCORRECT,6788808787,,,,
+"Suzana M Montana,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702639102,,,,
+"Navreet K. Sidhu,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4044742012,,,,
+DR. Bob Bagheri,,770-886-5437,,,,EPIC_INCORRECT,7708869717,,,,
+Dr. Amire,,770-933-9333,,,,EPIC_INCORRECT,7705799331,,,,
+"Dana Cole,PA",PA,Practice not recorded,,,,EPIC_INCORRECT,7704420306,,,,
+"Tammy W. Williams,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6787219457,,,,
+"Amber Boyd,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,8335932787,,,,
+Kayla Losato DO,DO,Practice not recorded,,,,EPIC_INCORRECT,7708128650,,,,
+"Wendy N. Davison,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7707021312,,,,
+Jordan Billings,,770-974-3911,,,,EPIC_INCORRECT,7707534228,,,,
+Dr. Reshmi Basu,,404-256-2688,,,,EPIC_INCORRECT,7706857114,,,,
+"Caitlin M Tierney,DO",DO,Practice not recorded,,,,EPIC_INCORRECT,7708128640,,,,
+"Kimberly M. Winzer,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709493504,,,,
+"Abraham Mathai,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7069464271,,,,
+"Chelsea Clevenger,FNP-C",FNP-C,Practice not recorded,,,,EPIC_INCORRECT,7066924040,,,,
+"Reden C. Delgado, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7707904964,,,,
+"Dr.Michelle Allen , M.D",,Practice not recorded,,,,EPIC_INCORRECT,4044897465,,,,
+"Emmanuel Mordi,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6787656751,,,,
+Dr.Lisette Davidson Tanner M.D,,404-778-3401,,,,EPIC_INCORRECT,4046861652,,,,
+"DR.JEH-WEI ,VIVIAN CHENG M.D.",,770-812-9326,,,,EPIC_INCORRECT,7708369358,,,,
+Dr.Juan J Sherwood M.D,,770-996-9225,,,,EPIC_INCORRECT,7709979812,,,,
+"LingXiang Zhou,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4709867146,,,,
+"Laura Putnam,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702972277,,,,
+"Lacy R. Tumambing,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8336053414,,,,
+"Penny M. Forman,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704761674,,,,
+"Dr. Miller, Julie Chapman, PA,  (Longstreet Medical)",PA,Practice not recorded,,,,EPIC_INCORRECT,7705336543,,,,
+"Julie L. Banks,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7709282601,,,,
+Dr.Veda Johnson M.D,,404-785-9850,,,,EPIC_INCORRECT,4047850710,,,,
+"Abby Perez, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,4047850710,,,,
+"Wendy Wright,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6785451735,,,,
+"Iris I. Kristen,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4046862015,,,,
+"Nina Chegireddy,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4044464727,,,,
+"Brittany Cole,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4045646961,,,,
+"Deborah King, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7705176526,,,,
+"Mary C. Burch, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,6782782810,,,,
+"Sylvia Washington,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7062364881,,,,
+"James L. Roth,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4042523591,,,,
+"Rashida Avery,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4046162825,,,,
+"Jennifer R. Everett,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7705057502,,,,
+Dr. Bohannon (All Gods Children),,Practice not recorded,,,,EPIC_INCORRECT,7706069239,,,,
+"Robert C. Platner,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4045258272,,,,
+"F. Clark Cantrell, Jr., MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702180278,,,,
+"Adele Goodloe,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706857114,,,,
+"Lisa P Allardice,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7068851963,,,,
+Dr. B Cole,,Practice not recorded,,,,EPIC_INCORRECT,4045646961,,,,
+"Angela Hall, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8774053360,,,,
+"Sandeep Dhaliwal,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8339412496,,,,
+"Jose Vigil, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704062550,,,,
+"Khelsea B McCier,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,3216557350,,,,
+"Juan J Sherwood,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7703891973,,,,
+"Margaret Gilligan,CPNP",CPNP,Practice not recorded,,,,EPIC_INCORRECT,7709489126,,,,
+"Sonali S. Vashi,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704270788,,,,
+"Nicholas Tinker,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4709867054,,,,
+"Kitty B. Carter-Wicker,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4047521191,,,,
+Westside Pediatrics,,Practice not recorded,,,,EPIC_INCORRECT,7709200062,,,,
+"Michael Nwaneri,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8887232802,,,,
+"Karem Menezes,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706224879,,,,
+"Amanda Newton,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7066329004,,,,
+"Charlie Read, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7708199616,,,,
+"Lynnda J. Campbell,NP-C",NP,Practice not recorded,,,,EPIC_INCORRECT,7707040223,,,,
+"Lewis W. Jackson,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7705022029,,,,
+"Kehinde Animashaun, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4046991380,,,,
+"Mary Jahr,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,6783843481,,,,
+"Effie S. Dolores,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,,,,,
+"Rashida Avery, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4046162825,,,,
+"Amisha Patel,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704249962,,,,
+"Ricardo R. Riesco,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7062723832,,,,
+"Gina M. Taylor,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,6782380323,,,,
+Suchitra Chandras,,Practice not recorded,,,,EPIC_INCORRECT,4042961156,,,,
+"Macrae F. Linton,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6159363486,,,,
+"Bradford Gould, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4042523600,,,,
+Kamela Momin,,Practice not recorded,,,,EPIC_INCORRECT,7708068117,,,,
+"Chrisitine Harrell, PA",PA,Practice not recorded,,,,EPIC_INCORRECT,7706928177,,,,
+"Jamie F Wallace,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704618852,,,,
+"Li-Kuang Chen, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7703342551,,,,
+"Lauren Judah, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709489126,,,,
+"Jeffery John Kovacic,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7066023101,,,,
+"Joseph D Point Du Jour,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7068762168,,,,
+"Sarvpreet Kaur, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4702383222,,,,
+"Elizabeth McGrail, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,4702310321,,,,
+"Gloria C Price,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7705064664,,,,
+"Elizabeth Bien,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7705188718,,,,
+"Laetitia A. Badio,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4702401041,,,,
+"Thuc Nguyen, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706711389,,,,
+"Tasha Green,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4043830435,,,,
+"Lauren N. Levy, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704768482,,,,
+"Richard R. Young, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704298005,,,,
+"Sommer Ferreira,CPNP",CPNP,Practice not recorded,,,,EPIC_INCORRECT,9125673701,,,,
+"Susan E. Lomax, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7707328242,,,,
+"Amitha Sampath, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704466977,,,,
+"Rebecca M. Moore,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702767075,,,,
+"Erol Onal,DO",DO,Practice not recorded,,,,EPIC_INCORRECT,7702873871,,,,
+"John E. Pitts, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704298005,,,,
+"Rose Romulus,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706935922,,,,
+"John Johnson, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709957018,,,,
+"Lezlie Biles, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7707754078,,,,
+"Jennifer Gottsman,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702873871,,,,
+"Holly Aldridge,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7065493432,,,,
+"Sherie Byrd,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706130196,,,,
+"Morgan D. Joseph,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7705057502,,,,
+"Evans Landis,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7703438759,,,,
+"Michael C. Hilton,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7705345255,,,,
+"Cynthia Ward,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8333407316,,,,
+"Edson Alexis,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709992787,,,,
+boh,,Practice not recorded,,,,EPIC_INCORRECT,7702873871,,,,
+"Erin Sustacheck,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7707819937,,,,
+"Lindara L. Halloran,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4047854969,,,,
+"Abraham Mathai,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7066926869,,,,
+"Gayathri Devineni,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8888134517,,,,
+"Jennifer Kennedy, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706225717,,,,
+"Bindu Bennuri, MD",MD,205-333-5900(p),,,,EPIC_INCORRECT,,,,,
+"Mark Boudreau,DO",DO,Practice not recorded,,,,EPIC_INCORRECT,7062364881,,,,
+"Steven Gunter, FNP-C",FNP-C,Practice not recorded,,,,EPIC_INCORRECT,6787236722,,,,
+"Lacey B. Abrams, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7708015029,,,,
+"Helen J. Dunagan,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709720850,,,,
+"Anh Thu N. Vu, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704751621,,,,
+Dorothy P. Wiggins,,Practice not recorded,,,,EPIC_INCORRECT,4046991380,,,,
+"Milan S. Johnson-Wade, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7708527721,,,,
+"Adriana Reznik,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7705170260,,,,
+"Kristie Taylor, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7068275019,,,,
+"Christian Messick, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702779169,,,,
+"Thomas Trevett,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704240334,,,,
+Lewis  W. Jackson,,Practice not recorded,,,,EPIC_INCORRECT,,,,,
+Anjali C. Dua,,Practice not recorded,,,,EPIC_INCORRECT,7708874597,,,,
+"Tania Jajeh,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702779169,,,,
+"Stephanie Montoya, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6783847163,,,,
+"Laura Zucker,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704751621,,,,
+Dr. Fontin,,Practice not recorded,,,,EPIC_INCORRECT,4044896563,,,,
+"Jennifer S. Campbell,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6785271559,,,,
+"Ana C. Dinulescu, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4045954650,,,,
+"Shannon Dobson,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7705170260,,,,
+"Bryana Ferris, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7707946652,,,,
+"Kevin R. Johnson,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702873871,,,,
+"Peds Care, PC",,Practice not recorded,,,,EPIC_INCORRECT,7062723832,,,,
+"Erica Elzey, MD",MD,404-845-4498/95,,,,EPIC_INCORRECT,7702203705,,,,
+"Jacqueline Sulton,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4703595996,,,,
+"Ilyssa Greenberg,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7705099463,,,,
+"Joseph B. Gunn,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7705357092,,,,
+"Dorene Etarock, FNP-C",FNP-C,Practice not recorded,,,,EPIC_INCORRECT,4702516053,,,,
+"Caroline Yaphockun, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7062902383,,,,
+"Stephanie L. Hassel McNeil, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4704011089,,,,
+"Anand Mehta, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4703008895,,,,
+"Hermanda S. West, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,6788265911,,,,
+"Shelly Ann M. Salandy, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709441013,,,,
+Rachi P. Bhavsar/Ruth Sacks,,Practice not recorded,,,,EPIC_INCORRECT,8884121723,,,,
+"James K. Bailey, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7067762589,,,,
+"Sowmya Brahmadevi,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706505589,,,,
+"Michelle Kelly, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6785271559,,,,
+"Law Walker,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704240334,,,,
+"Manuel D. Coutinho,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7705909170,,,,
+"Melissa D. Davis, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7062349026,,,,
+"Ashley Stolle, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709957018,,,,
+Dr. Baumgartner,,Practice not recorded,,,,EPIC_INCORRECT,7708489315,,,,
+"Sridevi P. Muthukumar, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4709867219,,,,
+"Miranda Oliver Stone,PA-C",PA-C,Practice not recorded,,,,EPIC_INCORRECT,7707320730,,,,
+"Danielle Bruce, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702873871,,,,
+"Sarah Dorsey,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706857114,,,,
+"Forrest C. Cantrell, Jr., MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704250799,,,,
+"Robert Emmett Sullivan, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7708773655,,,,
+"Quy Van, DO",DO,Practice not recorded,,,,EPIC_INCORRECT,7709992787,,,,
+"Jason J. Thomas, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4047557400,,,,
+"Renee A. Alli,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6788438501,,,,
+"Reshma R. Chugani,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4042612669,,,,
+"Sandra L. Haupt, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,6786356187,,,,
+"Danielle Whittaker,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4046996798,,,,
+"Rachel Knuth,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704768482,,,,
+"Fiona Van, DNP",DNP,Practice not recorded,,,,EPIC_INCORRECT,7707979615,,,,
+"Barbara Terry, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7703869451,,,,
+Dr. Grifith,,Practice not recorded,,,,EPIC_INCORRECT,4043516030,,,,
+Dr. Vats,,Practice not recorded,,,,EPIC_INCORRECT,7707328242,,,,
+"Phillip Weiss, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4042563583,,,,
+"David Bergman,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7709885553,,,,
+"Mary Margaret,FNP",FNP,Practice not recorded,,,,EPIC_INCORRECT,6782782810,,,,
+"John D. Joyave, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7066255906,,,,
+"Jude O. Okugbeni,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7703438911,,,,
+"Toycina AguilhFigario,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8664933521,,,,
+"Patricia Finkenhoefer,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7702779169,,,,
+"Madhu Vishwanath,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704319733,,,,
+"Steven Leard, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6782890171,,,,
+"Stephanie Morgan, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7066255906,,,,
+"Adrienne Polite,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7704193121,,,,
+"Shefali D. Chheda, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7705188718,,,,
+"Anbinh Hoang,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7702779169,,,,
+"Bridgette Guthrie, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7707517198,,,,
+"Allison HIll, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706857114,,,,
+"Hermanda West ,FNP",FNP,Practice not recorded,,,,EPIC_INCORRECT,4702516066,,,,
+"Clare Idehen, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4044897465,,,,
+Emily Kanaan MD,MD,Practice not recorded,,,,EPIC_INCORRECT,4043719842,,,,
+"Christina C. Grace, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,4048146086,,,,
+"Barbara Koval,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7707954513,,,,
+"Lindara Halloran,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4047854969,,,,
+Georgia perinatal consultants GPC,,Practice not recorded,,,,EPIC_INCORRECT,4048455155,,,,
+"Preston H. Leonard, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6787219457,,,,
+"Raseefa Anwar, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706225717,,,,
+"Brooke S. Anderson,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4047859022,,,,
+"Carlos A. Escobar, APRN",APRN,Practice not recorded,,,,EPIC_INCORRECT,6789151893,,,,
+"Katherine E. Bohannon, DO",DO,Practice not recorded,,,,EPIC_INCORRECT,7066255906,,,,
+"Keri Altman,NP",NP,Practice not recorded,,,,EPIC_INCORRECT,8335032787,,,,
+"Aguilh Figaro, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,8664933521,,,,
+"Claire Idehen, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4046169213,,,,
+Dr. Acharya,,Practice not recorded,,,,EPIC_INCORRECT,4048146086,,,,
+"Richard Licata, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7705521674,,,,
+"Josephine Sagoo, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4047850596,,,,
+"Beatris Dragonu, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706767251,,,,
+"Farzana Mumtaz, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7706408815,,,,
+"Tracy Barr,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4709617300,,,,
+"Marie A. Battle,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4704196196,,,,
+"Cole Ezeoke,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7066954830,,,,
+"Bibi Ramiall, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6783779390,,,,
+"Steven M. Elliott,MD",MD,Practice not recorded,,,,EPIC_INCORRECT,4043516030,,,,
+"Reanne P. Stephanson, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,6785271559,,,,
+"Mary McGee Hopper, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,,,,,
+"Meredith Gillig, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,7706857114,,,,
+"Niccole Edwins, CPNP",CPNP,Practice not recorded,,,,EPIC_INCORRECT,4709454189,,,,
+Dr. Tutmaher,,Practice not recorded,,,,EPIC_INCORRECT,4047854750,,,,
+"Terrance Gfroerer, MD",MD,Practice not recorded,,,,EPIC_INCORRECT,7703943055,,,,
+"Jill Saranthus, NP",NP,Practice not recorded,,,,EPIC_INCORRECT,6787169053,,,,
