@@ -202,12 +202,18 @@ def search(q):
                 "VERIFY_NEEDED": "🟡",
             }.get(status, "⚪")
             label = f"{icon} {name}"
+            if status == "EPIC_INCORRECT":
+                fax = fmt(p.get("correct_fax"))
+                if fax:
+                    label += f" | USE {fax}"
             if pname != "Practice not recorded":
                 label += f" — {pname}"
             out.append((0 if clean(name).startswith(needle) else 1, label, "p", p["id"]))
     for pr in DATA.get("practices", []):
         if pr.get("active", True) and pr.get("name") != "Practice not recorded" and needle in clean(pr.get("name")):
-            out.append((0 if clean(pr.get("name")).startswith(needle) else 1, "Practice: " + pr.get("name"), "r", pr["id"]))
+            correct, incorrect, verify_needed = practice_summary(pr["id"])
+            label = f"Practice: {pr.get('name')} | ✅ {correct}  🔴 {incorrect}  🟡 {verify_needed}"
+            out.append((0 if clean(pr.get("name")).startswith(needle) else 1, label, "r", pr["id"]))
     return sorted(out, key=lambda x: (x[0], clean(x[1])))[:12]
 
 
@@ -367,7 +373,7 @@ def add_provider_form(form_key, preset_practice=None):
                 st.rerun()
 
 
-st.markdown("""<style>.block-container{max-width:860px;padding-top:2rem}.card{border:1px solid #ddd;border-radius:18px;padding:25px;margin:14px 0;background:white}.green{border-left:14px solid #20894e}.red{border-left:14px solid #c93545}.yellow{border-left:14px solid #d99b00}.status{font-size:25px;font-weight:900}.fax{font-size:44px;font-weight:900}.quick-fax{font-size:24px;font-weight:900;color:#c93545;margin:.2rem 0}.stButton button{min-height:44px;font-weight:750;text-align:left}</style>""", unsafe_allow_html=True)
+st.markdown("""<style>.block-container{max-width:860px;padding-top:2rem}.card{border:1px solid #ddd;border-radius:18px;padding:25px;margin:14px 0;background:white}.green{border-left:14px solid #20894e}.red{border-left:14px solid #c93545}.yellow{border-left:14px solid #d99b00}.status{font-size:25px;font-weight:900}.fax{font-size:44px;font-weight:900}.stButton button{min-height:44px;font-weight:750;text-align:left}</style>""", unsafe_allow_html=True)
 
 st.title("📠 Provider Fax Verify")
 st.caption("☁️ Google Drive saving is on" if OK else "")
@@ -386,28 +392,6 @@ if q:
         if st.button(label, key=f"m{i}{pid}", use_container_width=True):
             st.session_state.kind, st.session_state.pick = kind, pid
             st.rerun()
-
-        if kind == "p":
-            provider = PV.get(pid)
-            if provider:
-                status = stat(provider.get("epic_status"))
-                if status == "EPIC_CORRECT":
-                    st.caption("✅ Epic fax verified")
-                elif status == "EPIC_INCORRECT":
-                    fax = fmt(provider.get("correct_fax"))
-                    if fax:
-                        st.markdown(f"<div class='quick-fax'>📠 USE: {fax}</div>", unsafe_allow_html=True)
-                        st.code(fax, language=None)
-                    else:
-                        st.caption("🔴 Correct fax needed")
-                    st.caption(f"Correction status: {ticket_label(provider.get('correction_status'))}")
-                else:
-                    st.caption("🟡 Verification needed")
-        elif kind == "r":
-            correct, incorrect, verify_needed = practice_summary(pid)
-            st.caption(f"✅ {correct} correct   🔴 {incorrect} incorrect   🟡 {verify_needed} verify")
-
-        st.divider()
 
 if st.session_state.kind == "p" and st.session_state.pick in PV:
     card(PV[st.session_state.pick])
