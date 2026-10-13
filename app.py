@@ -195,7 +195,15 @@ def search(q):
         name, pname = p.get("provider_name", ""), pr.get("name", "")
         hay = clean(" ".join([name, pname, p.get("npi", ""), p.get("correct_fax", "")]))
         if needle in hay:
-            label = name + (f" — {pname}" if pname != "Practice not recorded" else "")
+            status = stat(p.get("epic_status"))
+            icon = {
+                "EPIC_CORRECT": "✅",
+                "EPIC_INCORRECT": "🔴",
+                "VERIFY_NEEDED": "🟡",
+            }.get(status, "⚪")
+            label = f"{icon} {name}"
+            if pname != "Practice not recorded":
+                label += f" — {pname}"
             out.append((0 if clean(name).startswith(needle) else 1, label, "p", p["id"]))
     for pr in DATA.get("practices", []):
         if pr.get("active", True) and pr.get("name") != "Practice not recorded" and needle in clean(pr.get("name")):
@@ -209,6 +217,14 @@ def ticket_label(v):
         "IN_PROGRESS": "In progress", "AWAITING_EPIC_UPDATE": "Awaiting Epic update",
         "CORRECTED": "Epic corrected", "CLOSED": "Closed",
     }.get(v or "NOT_SUBMITTED", "Not submitted")
+
+
+def practice_summary(practice_id):
+    counts = {"EPIC_CORRECT": 0, "EPIC_INCORRECT": 0, "VERIFY_NEEDED": 0}
+    for p in DATA.get("providers", []):
+        if p.get("active", True) and p.get("practice_id") == practice_id:
+            counts[stat(p.get("epic_status"))] += 1
+    return counts["EPIC_CORRECT"], counts["EPIC_INCORRECT"], counts["VERIFY_NEEDED"]
 
 
 def outstanding(p):
@@ -351,7 +367,7 @@ def add_provider_form(form_key, preset_practice=None):
                 st.rerun()
 
 
-st.markdown("""<style>.block-container{max-width:860px;padding-top:2rem}.card{border:1px solid #ddd;border-radius:18px;padding:25px;margin:14px 0;background:white}.green{border-left:14px solid #20894e}.red{border-left:14px solid #c93545}.yellow{border-left:14px solid #d99b00}.status{font-size:25px;font-weight:900}.fax{font-size:44px;font-weight:900}.stButton button{min-height:44px;font-weight:750;text-align:left}</style>""", unsafe_allow_html=True)
+st.markdown("""<style>.block-container{max-width:860px;padding-top:2rem}.card{border:1px solid #ddd;border-radius:18px;padding:25px;margin:14px 0;background:white}.green{border-left:14px solid #20894e}.red{border-left:14px solid #c93545}.yellow{border-left:14px solid #d99b00}.status{font-size:25px;font-weight:900}.fax{font-size:44px;font-weight:900}.quick-fax{font-size:24px;font-weight:900;color:#c93545;margin:.2rem 0}.stButton button{min-height:44px;font-weight:750;text-align:left}</style>""", unsafe_allow_html=True)
 
 st.title("📠 Provider Fax Verify")
 st.caption("☁️ Google Drive saving is on" if OK else "")
@@ -370,6 +386,28 @@ if q:
         if st.button(label, key=f"m{i}{pid}", use_container_width=True):
             st.session_state.kind, st.session_state.pick = kind, pid
             st.rerun()
+
+        if kind == "p":
+            provider = PV.get(pid)
+            if provider:
+                status = stat(provider.get("epic_status"))
+                if status == "EPIC_CORRECT":
+                    st.caption("✅ Epic fax verified")
+                elif status == "EPIC_INCORRECT":
+                    fax = fmt(provider.get("correct_fax"))
+                    if fax:
+                        st.markdown(f"<div class='quick-fax'>📠 USE: {fax}</div>", unsafe_allow_html=True)
+                        st.code(fax, language=None)
+                    else:
+                        st.caption("🔴 Correct fax needed")
+                    st.caption(f"Correction status: {ticket_label(provider.get('correction_status'))}")
+                else:
+                    st.caption("🟡 Verification needed")
+        elif kind == "r":
+            correct, incorrect, verify_needed = practice_summary(pid)
+            st.caption(f"✅ {correct} correct   🔴 {incorrect} incorrect   🟡 {verify_needed} verify")
+
+        st.divider()
 
 if st.session_state.kind == "p" and st.session_state.pick in PV:
     card(PV[st.session_state.pick])
