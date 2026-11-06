@@ -68,9 +68,30 @@ DATA.setdefault("review_queue", [])
 
 
 def index():
-    global PR, PV
+    global PR, PV, SEARCH_ROWS, PRACTICE_COUNTS
     PR = {x.get("id"): x for x in DATA.get("practices", [])}
     PV = {x.get("id"): x for x in DATA.get("providers", [])}
+    PRACTICE_COUNTS = {
+        practice_id: {"EPIC_CORRECT": 0, "EPIC_INCORRECT": 0, "VERIFY_NEEDED": 0}
+        for practice_id in PR
+    }
+    SEARCH_ROWS = []
+    for p in DATA.get("providers", []):
+        if not p.get("active", True):
+            continue
+        pr = PR.get(p.get("practice_id"), {})
+        name = p.get("provider_name", "")
+        practice_name = pr.get("name", "")
+        provider_status = stat(p.get("epic_status"))
+        if p.get("practice_id") in PRACTICE_COUNTS:
+            PRACTICE_COUNTS[p.get("practice_id")][provider_status] += 1
+        SEARCH_ROWS.append({
+            "id": p.get("id"),
+            "name": name,
+            "practice_name": practice_name,
+            "status": provider_status,
+            "haystack": clean(" ".join([name, practice_name, p.get("npi", ""), p.get("correct_fax", "")])),
+        })
 
 
 index()
@@ -188,34 +209,23 @@ def search(q):
     if len(needle) < 2:
         return []
     out = []
-    for p in DATA.get("providers", []):
-        if not p.get("active", True):
-            continue
-        pr = practice(p.get("practice_id"))
-        name, pname = p.get("provider_name", ""), pr.get("name", "")
-        hay = clean(" ".join([name, pname, p.get("npi", ""), p.get("correct_fax", "")]))
-        if needle in hay:
-            status = stat(p.get("epic_status"))
-            icon = {
-                "EPIC_CORRECT": "✅",
-                "EPIC_INCORRECT": "🔴",
-                "VERIFY_NEEDED": "🟡",
-            }.get(status, "⚪")
-            label = f"{icon} {name}"
-            if status == "EPIC_INCORRECT":
-                fax = fmt(p.get("correct_fax"))
+    for row in SEARCH_ROWS:
+        if needle in row["haystack"]:
+            icon = {"EPIC_CORRECT": "✅", "EPIC_INCORRECT": "🔴", "VERIFY_NEEDED": "🟡"}.get(row["status"], "⚪")
+            label = f"{icon} {row['name']}"
+            if row["status"] == "EPIC_INCORRECT":
+                fax = fmt(PV.get(row["id"], {}).get("correct_fax"))
                 if fax:
                     label += f" | USE {fax}"
-            if pname != "Practice not recorded":
-                label += f" — {pname}"
-            out.append((0 if clean(name).startswith(needle) else 1, label, "p", p["id"]))
+            if row["practice_name"] != "Practice not recorded":
+                label += f" — {row['practice_name']}"
+            out.append((0 if clean(row["name"]).startswith(needle) else 1, label, "p", row["id"]))
     for pr in DATA.get("practices", []):
         if pr.get("active", True) and pr.get("name") != "Practice not recorded" and needle in clean(pr.get("name")):
-            correct, incorrect, verify_needed = practice_summary(pr["id"])
-            label = f"Practice: {pr.get('name')} | ✅ {correct}  🔴 {incorrect}  🟡 {verify_needed}"
+            counts = PRACTICE_COUNTS.get(pr["id"], {})
+            label = f"Practice: {pr.get('name')} | ✅ {counts.get('EPIC_CORRECT',0)}  🔴 {counts.get('EPIC_INCORRECT',0)}  🟡 {counts.get('VERIFY_NEEDED',0)}"
             out.append((0 if clean(pr.get("name")).startswith(needle) else 1, label, "r", pr["id"]))
     return sorted(out, key=lambda x: (x[0], clean(x[1])))[:12]
-
 
 def ticket_label(v):
     return {
@@ -226,11 +236,8 @@ def ticket_label(v):
 
 
 def practice_summary(practice_id):
-    counts = {"EPIC_CORRECT": 0, "EPIC_INCORRECT": 0, "VERIFY_NEEDED": 0}
-    for p in DATA.get("providers", []):
-        if p.get("active", True) and p.get("practice_id") == practice_id:
-            counts[stat(p.get("epic_status"))] += 1
-    return counts["EPIC_CORRECT"], counts["EPIC_INCORRECT"], counts["VERIFY_NEEDED"]
+    counts = PRACTICE_COUNTS.get(practice_id, {})
+    return counts.get("EPIC_CORRECT", 0), counts.get("EPIC_INCORRECT", 0), counts.get("VERIFY_NEEDED", 0)
 
 
 def outstanding(p):
@@ -391,7 +398,6 @@ if q:
     for i, (_, label, kind, pid) in enumerate(matches):
         if st.button(label, key=f"m{i}{pid}", use_container_width=True):
             st.session_state.kind, st.session_state.pick = kind, pid
-            st.rerun()
 
 if st.session_state.kind == "p" and st.session_state.pick in PV:
     card(PV[st.session_state.pick])
