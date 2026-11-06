@@ -376,6 +376,7 @@ def add_provider_form(form_key, preset_practice=None):
 st.markdown("""<style>.block-container{max-width:860px;padding-top:2rem}.card{border:1px solid #ddd;border-radius:18px;padding:25px;margin:14px 0;background:white}.green{border-left:14px solid #20894e}.red{border-left:14px solid #c93545}.yellow{border-left:14px solid #d99b00}.status{font-size:25px;font-weight:900}.fax{font-size:44px;font-weight:900}.stButton button{min-height:44px;font-weight:750;text-align:left}</style>""", unsafe_allow_html=True)
 
 st.title("📠 Provider Fax Verify")
+st.caption("Build: Copy Fax v4")
 st.caption("☁️ Google Drive saving is on" if OK else "")
 if not OK:
     st.error("Saving is not connected. " + ERR)
@@ -392,12 +393,12 @@ if q:
         provider = PV.get(pid, {}) if kind == "p" else {}
         red_fax = fmt(provider.get("correct_fax")) if stat(provider.get("epic_status")) == "EPIC_INCORRECT" else ""
         if red_fax:
-            result_col, copy_col = st.columns([6, 1], gap="small", vertical_alignment="center")
+            result_col, copy_col = st.columns([4, 2], gap="small", vertical_alignment="center")
             with result_col:
                 if st.button(label, key=f"m{i}{pid}", use_container_width=True):
                     st.session_state.kind, st.session_state.pick = kind, pid
             with copy_col:
-                if st.button("📋", key=f"copyfax_{i}_{pid}", help=f"Copy {red_fax}", use_container_width=True):
+                if st.button("📋 COPY FAX", key=f"copyfax_{i}_{pid}", help=f"Copy {red_fax}", use_container_width=True):
                     st.session_state[f"fax_to_copy_{pid}"] = red_fax
                 if st.session_state.get(f"fax_to_copy_{pid}") == red_fax:
                     st.components.v1.html(f"<script>navigator.clipboard.writeText('{red_fax}');</script>", height=0)
