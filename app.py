@@ -392,23 +392,24 @@ if q:
         provider = PV.get(pid, {}) if kind == "p" else {}
         red_fax = fmt(provider.get("correct_fax")) if stat(provider.get("epic_status")) == "EPIC_INCORRECT" else ""
         if red_fax:
-            result_col, copy_col = st.columns([5, 1], gap="small")
+            result_col, copy_col = st.columns([6, 1], gap="small", vertical_alignment="center")
             with result_col:
                 if st.button(label, key=f"m{i}{pid}", use_container_width=True):
                     st.session_state.kind, st.session_state.pick = kind, pid
             with copy_col:
-                st.components.v1.html(
-                    f"""
-                    <button id="copy_{i}" onclick="navigator.clipboard.writeText('{red_fax}').then(() => {{
-                        const b=document.getElementById('copy_{i}'); b.innerText='Copied ✓';
-                        setTimeout(() => b.innerText='Copy', 1200);
-                    }})" style="width:100%;height:40px;border:1px solid #c8ced6;border-radius:8px;background:#fff;font-weight:700;cursor:pointer;">Copy</button>
-                    """,
-                    height=44,
-                )
+                if st.button("📋", key=f"copyfax_{i}_{pid}", help=f"Copy {red_fax}", use_container_width=True):
+                    st.session_state[f"fax_to_copy_{pid}"] = red_fax
+                if st.session_state.get(f"fax_to_copy_{pid}") == red_fax:
+                    st.components.v1.html(
+                        f"<script>navigator.clipboard.writeText('{red_fax}');</script>",
+                        height=0,
+                    )
+                    st.session_state.pop(f"fax_to_copy_{pid}", None)
+                    st.toast(f"Copied {red_fax}")
         else:
             if st.button(label, key=f"m{i}{pid}", use_container_width=True):
                 st.session_state.kind, st.session_state.pick = kind, pid
+
 
 if st.session_state.kind == "p" and st.session_state.pick in PV:
     card(PV[st.session_state.pick])
