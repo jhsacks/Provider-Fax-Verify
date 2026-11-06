@@ -407,14 +407,7 @@ elif st.session_state.kind == "r" and st.session_state.pick in PR:
         st.caption("This creates a separate provider profile assigned to this practice.")
         add_provider_form("add_to_practice_" + selected_practice["id"], selected_practice)
 
-def clear_search():
-    st.session_state["q"] = ""
-    st.session_state["kind"] = ""
-    st.session_state["pick"] = ""
-    st.session_state["confirm_remove"] = ""
 
-if q or st.session_state.pick:
-    st.button("Clear search", use_container_width=True, on_click=clear_search)
 
 if "notice" in st.session_state:
     st.success(st.session_state.pop("notice"))
