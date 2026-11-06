@@ -323,14 +323,7 @@ def card(p, allow_edit=True):
         fax = fmt(p.get("correct_fax"))
         st.markdown(f"<div class='card red'><div class='status'>🔴 FAX IN EPIC INCORRECT</div><h2>{name}</h2><div>{pname}</div><b>USE THIS FAX</b><div class='fax'>{fax or 'FAX NEEDED'}</div></div>", unsafe_allow_html=True)
         if fax:
-            copy_html = f"""
-            <div style="display:flex;align-items:center;gap:10px;margin:4px 0 8px 0;">
-              <div style="font-size:25px;font-weight:800;letter-spacing:.5px;">{fax}</div>
-              <button onclick="navigator.clipboard.writeText('{fax}');this.innerText='Copied ✓';setTimeout(()=>this.innerText='Copy fax',1400);"
-                style="border:1px solid #c8ced6;border-radius:8px;background:white;padding:8px 14px;font-weight:700;cursor:pointer;">Copy fax</button>
-            </div>
-            """
-            st.components.v1.html(copy_html, height=54)
+            st.code(fax, language=None)
         st.write(f"**Correction status:** {ticket_label(p.get('correction_status'))}")
         with st.expander("Update correction ticket"):
             with st.form("ticket_" + p["id"]):
