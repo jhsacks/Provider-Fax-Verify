@@ -16,7 +16,8 @@ jobs:
     steps:
       - name: Ping Provider Fax Verify
         run: |
-          curl --fail --silent --show-error \
+          curl --fail --silent --output /dev/null \
             --max-time 120 \
             --retry 2 \
             "https://provider-fax-verify.onrender.com/"
+        echo "Provider Fax Verify is awake."
