@@ -1,0 +1,22 @@
+name: Keep Provider Fax Verify Awake
+
+on:
+  schedule:
+    # Every 10 minutes, Monday-Friday, 7 AM-7 PM Eastern
+    # November = EST, so 12:00-23:59 UTC
+    - cron: "*/10 12-23 * * 1-5"
+
+  # Lets you test the workflow manually from GitHub
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ping Provider Fax Verify
+        run: |
+          curl --fail --silent --show-error \
+            --max-time 120 \
+            --retry 2 \
+            "https://provider-fax-verify.onrender.com/"
