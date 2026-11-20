@@ -1,0 +1,21 @@
+name: Keep Provider Fax Verify Awake
+
+on:
+  schedule:
+    # Every 10 minutes, Monday through Friday
+    - cron: "3,13,23,33,43,53 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Provider Fax Verify
+        run: |
+          curl --location --fail --silent --output /dev/null \
+            --connect-timeout 15 \
+            --max-time 120 \
+            --retry 2 \
+            --retry-delay 5 \
+            "https://provider-fax-verify.onrender.com/"
+          echo "Provider Fax Verify is awake."
