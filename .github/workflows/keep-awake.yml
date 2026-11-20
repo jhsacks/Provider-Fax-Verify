@@ -5,6 +5,7 @@ on:
     # Every 10 minutes, Monday-Friday
     - cron: "3,13,23,33,43,53 * * 1-5"
 
+  # Allows manual testing
   workflow_dispatch:
 
 jobs:
